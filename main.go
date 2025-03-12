@@ -22,7 +22,7 @@ func main() {
         fmt.Println("이미지 URL:", imgSrc)
     })
 
-    url := "https://www.w3schools.com" // 여기에 크롤링할 웹사이트 URL을 입력하세요.
+    url := "https://example.com" // 여기에 크롤링할 웹사이트 URL을 입력하세요.
 
     err := c.Visit(url)
     if err != nil {
